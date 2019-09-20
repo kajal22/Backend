@@ -18,13 +18,12 @@
 const express = require('express');
 const app = express();
 let validator = require('express-validator')
-app.use(validator())
-const bodyParser = require('body-parser');
+app.use(validator())    
 const chatControl = require('../BackEnd/controller/chatController')
 let mongoose = require('mongoose');
 let routes = require('../BackEnd/routes/userRoutes')
 const socketIO = require('socket.io')
-
+const bodyParser=require('body-parser')
 // const PORT = 4000;
 
 
