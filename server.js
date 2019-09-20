@@ -19,7 +19,7 @@ const express = require('express');
 const app = express();
 let validator = require('express-validator')
 app.use(validator())    
-const chatControl = require('../BackEnd/controller/chatController')
+const chatControl = require('../BackEnd/controller/chatController.js')
 let mongoose = require('mongoose');
 let routes = require('../BackEnd/routes/userRoutes')
 const socketIO = require('socket.io')
