@@ -21,7 +21,7 @@ let validator = require('express-validator')
 app.use(validator())    
 const chatControl = require('./controller/chatController.js')
 let mongoose = require('mongoose');
-let routes = require('../BackEnd/routes/userRoutes')
+let routes = require('./routes/userRoutes')
 const socketIO = require('socket.io')
 const bodyParser=require('body-parser')
 // const PORT = 4000;
