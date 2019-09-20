@@ -55,4 +55,4 @@ getChatControl (req, res)  {
 
 }
 const chatControlobject=new ChatController()
- module.exports=chatControlobject
+ module.exports=chatControlobject;
