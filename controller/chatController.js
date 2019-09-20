@@ -15,7 +15,7 @@ chatAppControl  (req, callback)  {
       message: req.message
     }
 
-    // the userdata will send to services
+    // the userdata wasaill send to services
     chatService.chatAppService(chatData, (err, data) => {
 
       if (err) {
