@@ -27,7 +27,7 @@ const bodyParser=require('body-parser')
  const PORT = 4000;
 
 
-app.use(express.static('../FrontEnd'));
+app.use(express.static('../Frontend'));
 app.use(bodyParser.json());
 app.use('/', routes)
 require('dotenv').config()
